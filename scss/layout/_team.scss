@@ -1,0 +1,42 @@
+.team-member {
+	margin-bottom: 3rem;
+	padding-bottom: 3rem;
+	border-bottom: 1px solid $color-border;
+	&:last-of-type {
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+}
+
+.team-member-image.cell {
+	img {
+		margin: auto;
+		display: block;
+		max-width: 180px;
+		border-radius: 50%;
+	}
+}
+
+.team-member-content.cell {
+	padding-top: 1.5rem;
+	.title {
+		font-family: $font-family-sans-serif;
+		font-weight: $font-weight-bold;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+
+	.team-member-image.cell {
+		margin: 0;
+		width: 33.3333%;
+	}
+
+	.team-member-content.cell {
+		width: 66.6667%;
+	}
+
+}

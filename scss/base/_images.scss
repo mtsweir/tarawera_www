@@ -1,0 +1,37 @@
+.image-bordered {
+	display: inline-block;
+	border: 2px solid $color-border;
+}
+
+// .highlight-feature-image--frame-right {
+// 	&::before {
+// 		content: "";
+// 		position: absolute;
+// 		top: 0;
+// 		right: 0;
+// 		bottom: 0;
+// 		left: 0;
+// 		border: 2px solid $color-border;
+// 		z-index: 1;
+// 	}
+// }
+
+// .highlight-feature-image--frame-right {
+// 	&::after {
+// 		content: "";
+// 		border: 2px solid $color-border;
+//     position: absolute;
+//     right: -10px;
+//     top: 10px;
+//     bottom: -10px;
+//     left: 10px;
+//     z-index: -1;
+// 	}
+// }
+
+// .highlight-feature-image {
+// 	+ .highlight-feature-image {
+// 		margin-left: 2rem;
+// 		left: -0.5rem;
+// 	}
+// }

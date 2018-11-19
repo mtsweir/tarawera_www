@@ -1,0 +1,53 @@
+.hero {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.hero-copy-container {
+	padding-bottom: 2rem;
+}
+
+.hero-title {
+	font-size: 2.25rem;
+}
+
+.hero-copy {
+	font-family: $font-family-serif;
+	font-size: 1.25rem;
+}
+
+.hero-image {
+	img {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+
+	.hero {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		.hero-title {
+			font-size: 3.75rem;
+		}
+
+		.hero-copy {
+			font-size: 1.5rem;
+		}
+
+	}
+
+	.hero-image {
+		img {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+}
+
+.hero-with-image {
+	padding-bottom: 0 ;
+}

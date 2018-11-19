@@ -1,0 +1,48 @@
+.navbar.navbar-primary {
+
+	.nav-link {
+		color: $nav-link-color;
+	}
+}
+
+.navbar-brand {
+	padding: 0;
+	font-size: inherit;
+	line-height: $line-height-one;
+}
+
+.nav-item,
+.btn-cta {
+	font-size: 1rem;
+}
+
+
+@include media-breakpoint-up(lg) {
+
+	.navbar.navbar-primary {
+		margin-bottom: $spacer * 2;
+		padding-top: $spacer * 2;
+		padding-bottom: $spacer * 2;
+	}
+
+	.nav-item {
+		+ .nav-item {
+			margin-left: $spacer * 1.25;
+		}
+	}
+
+}
+
+@include media-breakpoint-up(xl) {
+
+	.navbar-brand {
+		margin-right: $spacer * 3;
+	}
+
+	.nav-item {
+		+ .nav-item {
+			margin-left: $spacer * 2;
+		}
+	}
+
+}

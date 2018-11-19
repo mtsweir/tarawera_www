@@ -1,0 +1,16 @@
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+
+	> .cell {
+    width: 100%;
+	}
+}
+
+.flex-justify-center {
+	justify-content: center;
+}
+
+.flex-align-middle {
+	align-items: center;
+}

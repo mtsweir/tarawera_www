@@ -1,0 +1,38 @@
+/**
+ * Variables
+ *
+ * @project Tarawera.co.nz
+ * @package main.scss
+ */
+
+// Colours
+// -------------------------------------------------------------------------
+
+// Theme
+$color-primary: theme-color("primary");
+$color-text: $gray-900;
+$color-text-light: $gray-600;
+
+$color-link: theme-color("anchor");
+
+// Backgrounds
+$color-bg-primary: theme-color("primary");
+$color-bg-light: $gray-100;
+$color-bg-dark: $gray-900;
+
+// Borders
+$color-border: $gray-900;
+$color-border-light: $gray-300;
+
+
+// Typography
+// --------------------------------------------------------------------------
+$font-weight-bold: 600;
+
+$line-height-one: 1;
+
+
+// Navbar
+// --------------------------------------------------------------------------
+
+$nav-link-color: $gray-900;
