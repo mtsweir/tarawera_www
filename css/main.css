@@ -4076,10 +4076,6 @@ blockquote {
 .flex-align-middle {
   align-items: center; }
 
-.hero {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
-
 .hero-copy-container {
   padding-bottom: 2rem; }
 
@@ -4095,13 +4091,10 @@ blockquote {
   padding-right: 1rem; }
 
 @media (min-width: 992px) {
-  .hero {
-    padding-top: 4rem;
-    padding-bottom: 4rem; }
-    .hero .hero-title {
-      font-size: 3.75rem; }
-    .hero .hero-copy {
-      font-size: 1.5rem; }
+  .hero .hero-title {
+    font-size: 3.75rem; }
+  .hero .hero-copy {
+    font-size: 1.5rem; }
   .hero-image img {
     padding-left: 0;
     padding-right: 0; } }
@@ -4113,49 +4106,42 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-@media (min-width: 992px) {
-  section {
-    margin-top: 4rem;
-    margin-bottom: 4rem; } }
-
-.section-inverse {
+.section-bg-primary,
+.section-bg-grey {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2rem; }
+
+.section-bg-primary {
   color: #fff;
   background-color: #00627e; }
 
-.section-grey {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.section-bg-grey {
   background-color: #f4f7fb; }
 
 @media (min-width: 992px) {
-  .section-inverse,
-  .section-grey {
+  section {
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
+  .section-highlight {
+    margin-top: 6.5rem;
+    margin-bottom: 6.5rem; }
+  .section-bg-primary,
+  .section-bg-grey {
     padding-top: 4rem;
     padding-bottom: 4rem; } }
 
-.section.highlight {
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
-
-@media (min-width: 992px) {
-  .section.highlight {
-    margin-top: 7rem;
-    margin-bottom: 7rem; } }
-
-.highlight .highlight-title {
+.section-highlight .highlight-title {
   font-size: 2.5rem; }
 
-.highlight p {
+.section-highlight p {
   font-size: 1.25rem; }
 
-.highlight ul {
+.section-highlight ul {
   margin: 0;
   padding: 0;
   font-size: 1.25rem; }
 
-.highlight li {
+.section-highlight li {
   margin-bottom: 0.75rem;
   list-style: none; }
 

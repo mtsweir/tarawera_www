@@ -12,97 +12,53 @@
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/about.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/css/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/css/main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/img/brand/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/img/brand/logo.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/img/hero/srcset-files/tpl_business_man_plan.png": {
-		"ft": 32768,
-		"iS": 40746,
-		"oA": 0,
-		"oAP": "/build/img/hero/srcset-files/tpl_business_man_plan.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/hero/srcset-files/undraw_business_plan_5i9d@2x.png": {
-		"ft": 32768,
-		"iS": 96591,
-		"oA": 0,
-		"oAP": "/build/img/hero/srcset-files/undraw_business_plan_5i9d@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/img/hero/tpl_business_man_plan.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/img/hero/tpl_business_man_plan.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/img/hero/tpl_business_man_plan_1040.png": {
-		"ft": 32768,
-		"iS": 97311,
-		"oA": 0,
-		"oAP": "/build/img/hero/tpl_business_man_plan_1040.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/hero/tpl_business_man_plan_520.png": {
-		"ft": 32768,
-		"iS": 41025,
-		"oA": 0,
-		"oAP": "/build/img/hero/tpl_business_man_plan_520.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/index.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -879,9 +835,9 @@
 		},
 	"/package-lock.json": {
 		"ft": 524288,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/package-lock.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -1010,8 +966,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/scss/main.css",
-		"oF": 0,
+		"oAP": "/css/main.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
