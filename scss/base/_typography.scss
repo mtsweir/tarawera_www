@@ -5,10 +5,19 @@
  * @package main.scss
  */
  
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
 
- blockquote {
-	 font-family: $font-family-serif;
- }
+::selection {
+	background: rgba($color-primary, 0.2);
+	color: $color-text;
+}
+
+blockquote {
+	font-family: $font-family-serif;
+}
 
 .blockquote-callout {
 	padding-left: 2rem;
@@ -20,5 +29,18 @@
 		margin-top: 2rem;
 		font-family: $font-family-sans-serif;
 		font-size: 1.125rem;
+	}
+}
+
+.divider {
+
+	hr {
+		border-top-color: $color-border-light;
+	}
+
+	&.divider-inverse {
+		hr {
+			border-top-color: rgba($white, 0.2);
+		}
 	}
 }
