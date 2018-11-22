@@ -33,6 +33,13 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"/grtv.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/grtv.html",
+		"oF": 1
+		},
 	"/img/brand/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -53,11 +60,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/img/hero/tpl_man_with_vintage_camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/img/hero/tpl_man_with_vintage_camera.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/build/index.html",
+		"oF": 1
+		},
+	"/newsletters.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/newsletters.html",
 		"oF": 1
 		},
 	"/node_modules": {
@@ -867,6 +891,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/base/_spacing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/base/_spacing.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -876,6 +913,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/scss/base/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/components/_accordion.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/components/_accordion.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -893,6 +943,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/components/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/components/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -902,6 +965,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/components/_tiles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/components/_tiles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -928,6 +1004,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/scss/layout/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/layout/_newsletters.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/layout/_newsletters.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
