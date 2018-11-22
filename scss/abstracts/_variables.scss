@@ -10,18 +10,20 @@
 
 // Theme
 $color-primary: theme-color("primary");
-$color-text: $gray-900;
-$color-text-light: $gray-600;
-
 $color-link: theme-color("anchor");
+
+$color-text: $gray-900; // text primary
+$color-text-secondary: $gray-600; // text contrast
+$color-text-grey-light: $gray-400; // text light
 
 // Backgrounds
 $color-bg-primary: theme-color("primary");
-$color-bg-light: $gray-100;
-$color-bg-dark: $gray-900;
+$color-bg-grey-light: $gray-100;
+$color-bg-grey-dark: $gray-900;
 
 // Borders
 $color-border: $gray-900;
+$color-border-medium: $gray-600;
 $color-border-light: $gray-300;
 
 

@@ -20,6 +20,7 @@ $link-color: theme-color("anchor");
 // Neutrals
 $gray-100: #f4f7fb;
 $gray-300: #dfe3e6;
+$gray-400: #cdd1d4;
 $gray-600: #5a6872;
 $gray-900: #152935;
 
@@ -42,7 +43,7 @@ $headings-font-family: $font-family-serif;
 $line-height-base: 1.5;
 $headings-line-height: 1.25;
 
-$paragraph-margin-bottom: $spacer * 1.25;
+$paragraph-margin-bottom: $spacer * 1.5;
 
 $blockquote-small-color: $gray-900;
 
