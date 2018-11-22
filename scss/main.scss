@@ -6,7 +6,7 @@
 
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,700');
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 // Vendor
@@ -18,13 +18,18 @@
 // Base
 @import "base/typography";
 @import "base/images";
+@import "base/spacing";
 
 // Components
-@import "components/navigation";
+@import "components/accordion";
 @import "components/flexbox";
+@import "components/forms";
+@import "components/navigation";
+@import "components/tiles";
 
 // Layout
 @import "layout/hero";
 @import "layout/sections";
 @import "layout/footer";
 @import "layout/team";
+@import "layout/newsletters";
