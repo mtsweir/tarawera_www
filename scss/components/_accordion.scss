@@ -1,0 +1,58 @@
+.accordion {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid $color-border;
+	border-bottom: 1px solid $color-border;
+}
+
+.accordion-item {
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	list-style: none;
+	border-bottom: 1px solid $color-border;
+	&:last-of-type {
+		border-bottom: 0; 
+	}
+}
+
+.accordion-item-header {
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	cursor: pointer;
+
+	h3 {
+		margin: 0;
+		padding-right: 1rem;
+	}
+
+	button {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.accordion-item-content {
+	padding-right: 1.25rem;
+}
+
+
+@include media-breakpoint-up(md) {
+
+	.accordion {
+		border: 1px solid $color-border;
+	}
+
+	.accordion-item,
+	.accordion-item-header {
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+	}
+
+	.accordion-item-content {
+		padding-left: 1.25rem;
+		padding-right: 4rem;
+	}
+
+}

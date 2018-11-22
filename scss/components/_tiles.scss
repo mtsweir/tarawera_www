@@ -1,0 +1,43 @@
+.tile {
+
+}
+
+.tile-image {
+	margin-bottom: $spacer;
+}
+
+.tile-date {
+	margin-bottom: $spacer;
+	font-size: 0.875rem;
+}
+
+.tile-title {
+	margin-bottom: $spacer;
+}
+
+.tile-link {
+	display: block;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.tile-inverse {
+
+	.tile-title,
+	.tile-date {
+		color: $white;
+	}
+
+	.tile-excerpt {
+		color: $color-text-grey-light;
+	}
+
+	&:hover {
+
+		.tile-excerpt {
+			color: $white;
+		}	
+	}
+}
