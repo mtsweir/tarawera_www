@@ -1,3 +1,7 @@
+.hero {
+	margin-top: 0;
+}
+
 .hero-copy-container {
 	padding-bottom: 2rem;
 }
@@ -21,6 +25,7 @@
 @include media-breakpoint-up(lg) {
 
 	.hero {
+		margin-top: 0;
 
 		.hero-title {
 			font-size: 3.75rem;

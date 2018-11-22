@@ -3,19 +3,31 @@ section {
 	margin-bottom: 2rem;
 }
 
-.section-bg-primary,
-.section-bg-grey {
+.section-padding {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
-.section-bg-primary {
+// Section Themes
+
+.section-bg-primary,
+.section-bg-grey-dark {
 	color: $white;
+}
+
+.section-bg-primary {
+	// Dark Green
 	background-color: $color-bg-primary;
 }
 
-.section-bg-grey {
-	background-color: $color-bg-light;
+.section-bg-grey-light {
+	// Light Grey
+	background-color: $color-bg-grey-light;
+}
+
+.section-bg-grey-dark {
+	// Dark Grey
+	background-color: $color-bg-grey-dark;
 }
 
 @include media-breakpoint-up(lg) {
@@ -30,8 +42,7 @@ section {
 		margin-bottom: 6.5rem;
 	}
 
-	.section-bg-primary,
-	.section-bg-grey {
+	.section-padding {
 		padding-top: 4rem;
 		padding-bottom: 4rem;
 	}
@@ -45,10 +56,12 @@ section {
 .section-highlight {
 
 	.highlight-title {
+		color: $color-primary;
 		font-size: 2.5rem;
 	}
 
 	p {
+		font-family: $font-family-serif;
 		font-size: 1.25rem;
 	}
 	
@@ -93,12 +106,13 @@ section {
 
 .feature-grid-item {
 	padding: 0 2rem;
+	text-align: center;
 }
 
 .feature-grid-item-icon {
 	display: inline-block;
 	margin: 1.5rem auto;
 	padding: 1rem;
-	background-color: rgba($color-bg-dark, 0.4);
+	background-color: rgba($color-bg-grey-dark, 0.4);
 	border-radius: 50%;
 }
