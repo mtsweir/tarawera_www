@@ -24,6 +24,9 @@ $gray-400: #cdd1d4;
 $gray-600: #5a6872;
 $gray-900: #152935;
 
+// Buttons + Forms
+$component-active-bg: theme-color("primary");
+
 
 // Spacing
 // --------------------------------------------------------------------------
@@ -51,6 +54,19 @@ $blockquote-small-color: $gray-900;
 // --------------------------------------------------------------------------
 
 //$navbar-padding-y: ($spacer);
+
+
+// Forms
+// --------------------------------------------------------------------------
+
+$input-btn-padding-y: 0.75rem;
+$input-btn-padding-x: 1rem;
+
+$input-color: $gray-900;
+$input-border-color: $gray-900;
+$input-btn-focus-color: rgba($component-active-bg, 1);
+$input-focus-border-color: theme-color("primary");
+$input-btn-focus-width: 1px;
 
 
 // Settings
