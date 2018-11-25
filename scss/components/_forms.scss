@@ -1,4 +1,13 @@
 
+.tpl-form-group--attached {
+	display: flex;
+
+	.tpl-input {
+		border-right: 0;
+	}
+
+}
+
 // Custom Checkboxes
 // https://codepen.io/Vestride/pen/dABHx
 

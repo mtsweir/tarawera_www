@@ -1,3 +1,16 @@
+// Newsletter Signup sticky widget
+// --------------------------------------------------------------------------
+
+.newsletter-subscribe {
+	padding: 1.25rem 0;
+	background-color: #fff;
+	border-bottom: 1px solid $color-border-light;
+}
+
+
+// Newsletter Siginup Container
+// --------------------------------------------------------------------------
+
 .newsletter-container {
 	margin-bottom: 1.5rem;
 }
@@ -59,6 +72,11 @@
 
 	.newsletter-list {
 		padding: 1.5rem;
+	}
+
+	.newsletter-subscribe {
+		padding: 1.5rem;
+		border: 1px solid $color-border-light;
 	}
 
 }

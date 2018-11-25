@@ -59,7 +59,6 @@
 						<div class="hero-copy-container">
 							<h1 class="hero-title">Newsletters</h1>
 							<p class="hero-copy">Get more of Tarawera in your inbox with the latest business, financial, property, insurance news.</p>
-							<p class="text-muted">Select all the newsletters you’d like to receive and enter your email at the bottom of this page.</p>
 						</div>
 					</div>
 				</div>
@@ -69,7 +68,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 offset-md-2">
-
+						<form action="">
+							<!-- Subscribe to Newsletters -->
+							<div class="sticky-top newsletter-subscribe">
+								<div class="tpl-form-group tpl-form-group--attached col-md-8 offset-md-2">
+									<label class="sr-only" for="name">Full name</label>
+									<input class="tpl-input form-control" id="name" name="name" type="text" placeholder="Full name">
+									<input class="btn btn-primary" type="submit" value="Subscribe">
+								</div>
+							</div>
+						<!-- Daily Newsletters -->
 						<div class="newsletter-container">
 							<h2 class="newsletter-container-title">Daily</h2>
 							<ul class="newsletter-list">
@@ -99,7 +107,7 @@
 								</li>
 							</ul>
 						</div>
-
+						<!-- Weekly Newsletters -->
 						<div class="newsletter-container">
 							<h2 class="newsletter-container-title">Weekly</h2>
 							<ul class="newsletter-list">
@@ -137,7 +145,77 @@
 								</li>
 							</ul>
 						</div>
-
+						<!-- Monthly Newsletters -->
+						<div class="newsletter-container">
+							<h2 class="newsletter-container-title">Monthly</h2>
+							<ul class="newsletter-list">
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="Bookstore" type="checkbox" value="value1">
+									<label for="Bookstore">
+										<p class="newsletter-tagline">New personal finance and investing books</p>
+										<h3 class="newsletter-title">Bookstore</h3>
+										<p class="newsletter-summary">Be kept informed of new releases in finance, sharemarket and property investing books; includes specials, competitions and exclusive discounts.</p>
+									</label>
+								</li>
+							</ul>
+						</div>
+						<!-- Additional Newsletters -->
+						<div class="newsletter-container">
+							<h2 class="newsletter-container-title">And More</h2>
+							<ul class="newsletter-list">
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="Supertalk / KiwiSaver" type="checkbox" value="value1">
+									<label for="Supertalk / KiwiSaver">
+										<p class="newsletter-tagline">News and information about KiwiSaver</p>
+										<h3 class="newsletter-title">Supertalk / KiwiSaver</h3>
+										<p class="newsletter-summary">News and information relating to superannuation, including Kiwisaver, in New Zealand.</p>
+									</label>
+								</li>
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="TMM Online" type="checkbox" value="value1">
+									<label for="TMM Online">
+										<p class="newsletter-tagline">Focus on mortgages</p>
+										<h3 class="newsletter-title">TMM Online</h3>
+										<p class="newsletter-summary">Our newsletter specifically for Mortgage Brokers.</p>
+									</label>
+								</li>
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="Peer to Peer Lending" type="checkbox" value="value1">
+									<label for="Peer to Peer Lending">
+										<p class="newsletter-tagline">All about P2P</p>
+										<h3 class="newsletter-title">Peer to Peer Lending</h3>
+										<p class="newsletter-summary">Get the latest news and information about peer-to-peer lending.</p>
+									</label>
+								</li>
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="Net Prophet News" type="checkbox" value="value1">
+									<label for="Net Prophet News">
+										<p class="newsletter-tagline">Accounting News for Profit</p>
+										<h3 class="newsletter-title">Net Prophet News</h3>
+										<p class="newsletter-summary">Accountancy focused newsletter.</p>
+									</label>
+								</li>
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="Property Investment Specials" type="checkbox" value="value1">
+									<label for="Property Investment Specials">
+										<p class="newsletter-tagline">Keep ahead with these exclusive offers</p>
+										<h3 class="newsletter-title">Property Investment Specials</h3>
+										<p class="newsletter-summary">Property-related special offers and promotions from partners of Landlords.co.nz</p>
+									</label>
+								</li>
+								<li class="newsletter-item">
+									<input class="styled-checkbox" id="Investment Centre" type="checkbox" value="value1">
+									<label for="Investment Centre">
+										<p class="newsletter-tagline">Investment news that matters</p>
+										<h3 class="newsletter-title">Investment Centre</h3>
+										<p class="newsletter-summary">Provides investment advisers, financial planners and AFAs with more comprehensive news.</p>
+									</label>
+								</li>
+							</ul>
+						</div>
+						
+						</form>
+						<p class="text-muted text-center">Your <a href="#">privacy</a> is important to us</p>
 					</div>
 				</div>
 			</div>
