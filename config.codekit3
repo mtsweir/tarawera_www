@@ -70,6 +70,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/img/ui-newsletter-feature-detail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/img/ui-newsletter-feature-detail.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/ui-website-feature-detail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/img/ui-website-feature-detail.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -878,6 +898,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/privacy.html",
+		"oF": 1
+		},
 	"/scss/abstracts/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -943,6 +970,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/components/_cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/components/_cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/components/_flexbox.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -982,7 +1022,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/_tiles.scss": {
+	"/scss/components/_tables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -990,7 +1030,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/components/_tiles.css",
+		"oAP": "/build/scss/components/_tables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/layout/_content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/layout/_content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1098,6 +1151,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/specs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/specs.html",
+		"oF": 1
 		}
 	},
 "hooks": [
