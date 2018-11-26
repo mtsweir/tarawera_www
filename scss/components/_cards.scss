@@ -1,17 +1,17 @@
-.tile-image {
+.card-image {
 	margin-bottom: $spacer;
 }
 
-.tile-date {
+.card-date {
 	margin-bottom: $spacer;
 	font-size: 0.875rem;
 }
 
-.tile-title {
+.card-title {
 	margin-bottom: $spacer;
 }
 
-.tile-link {
+.card-link {
 	display: block;
 	text-decoration: none;
 	&:hover {
@@ -19,20 +19,20 @@
 	}
 }
 
-.tile-inverse {
+.card-inverse {
 
-	.tile-title,
-	.tile-date {
+	.card-title,
+	.card-date {
 		color: $white;
 	}
 
-	.tile-excerpt {
+	.card-excerpt {
 		color: $color-text-grey-light;
 	}
 
 	&:hover {
 
-		.tile-excerpt {
+		.card-excerpt {
 			color: $white;
 		}	
 	}

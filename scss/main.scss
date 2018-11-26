@@ -6,7 +6,7 @@
 
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 // Vendor
@@ -22,12 +22,14 @@
 
 // Components
 @import "components/accordion";
+@import "components/cards";
 @import "components/flexbox";
 @import "components/forms";
 @import "components/navigation";
-@import "components/tiles";
+@import "components/tables";
 
 // Layout
+@import "layout/content";
 @import "layout/hero";
 @import "layout/sections";
 @import "layout/footer";
