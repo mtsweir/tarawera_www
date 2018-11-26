@@ -5,6 +5,10 @@
 	font-size: 1rem;
 	border-top: 1px solid $color-border-light;
 
+	a:not(.btn) {
+		color: $color-primary;
+	}
+
 	ul {
 		margin: 0;
 		padding: 0;
@@ -13,22 +17,13 @@
 	li {
 		margin-bottom: 0.5rem;
 		list-style: none;
-		a {
-			color: $color-text;
-		}
+		
 	}
 
 	h5 {
 		margin-bottom: 1rem;
-		color: $color-primary;
 		font-family: $font-family-sans-serif;
 		font-size: 1.25rem;
-	}
-
-	p {
-		a {
-			color: $color-text;
-		}
 	}
 
 	.copyright-info {
