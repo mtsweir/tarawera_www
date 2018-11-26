@@ -14,18 +14,18 @@ th {
 	margin-bottom: 2rem;
 	width: 100%;
 	background-color: transparent;
-	border-top: 2px solid $color-border;
 	border-bottom: 2px solid $color-border;
 
 	th, td {
 		padding: 1.5rem;
 		vertical-align: top;
-		min-width: 250px;
+		min-width: 220px;
 	}
 
 	thead {
 		th {
 			font-family: $font-family-serif;
+			border-top: 2px solid $color-border;
 			border-bottom: 2px solid $color-border;
 		}
 	}
@@ -60,6 +60,13 @@ th {
 	background-color: #e5eff2;
 }
 
+
+// Table Highlighted Columns
+.table-cell-highlight {
+	background-color: #e5eff2;
+}
+
+
 // Responsive Tables
 .table-responsive {
 	margin-bottom: 2rem;
@@ -75,13 +82,18 @@ th {
 
 }
 
+.table-deadlines {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
 @include media-breakpoint-down(md) {
 
 	// Inset Shadows - For Responsive Tables
 	.table-shadow {
 		position: relative;
 
-		&::before,
+		//&::before,
 		&::after {
 			display: block;
 			content: '';
@@ -91,10 +103,10 @@ th {
 			width: 1.25rem;
 		}
 
-		&::before {
-			left: 0;
-			background: linear-gradient(to right,rgba(0,0,0,.05) 0%,transparent 100%);
-		}
+		// &::before {
+		// 	left: 0;
+		// 	background: linear-gradient(to right,rgba(0,0,0,.05) 0%,transparent 100%);
+		// }
 
 		&::after {
 			right: 0;
@@ -105,11 +117,14 @@ th {
 
 }
 
-// Even Table Columns
-.table-grid {
-	table-layout: fixed;
-}
+@include media-breakpoint-up(lg) {
 
+	// Even Table Columns
+	.table-fixed-lg {
+		table-layout: fixed;
+	}
+
+}
 
 // Custom Table Padding
 .table-grid--row-padding-t4 {
