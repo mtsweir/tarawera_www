@@ -30,23 +30,24 @@ section {
 	background-color: $color-bg-grey-dark;
 }
 
-@include media-breakpoint-up(lg) {
 
-	section {
-		margin-top: 4rem;
-		margin-bottom: 4rem;
-	}
+// Content Section - Typography
 
-	.section-highlight {
-		margin-top: 6.5rem;
-		margin-bottom: 6.5rem;
-	}
+.content p + h6,
+.content ul + h6,
+.content ol + h6,
+.content blockquote + h6,
+.content figure + h6
+.content img + h6,
+.content table + h6 {
+	margin-top: 3rem;
+}
 
-	.section-padding {
-		padding-top: 4rem;
-		padding-bottom: 4rem;
-	}
-
+.content ul li,
+.content ol li,
+.content li, {
+	margin-bottom: 1rem;
+	padding-left: 0.625rem;
 }
 
 
@@ -54,10 +55,31 @@ section {
 // --------------------------------------------------------------------------
 
 .section-highlight {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
 
-	.highlight-title {
-		color: $color-primary;
-		font-size: 2.5rem;
+.section-highlight-image {
+	justify-content: center;
+	align-self: center;
+}
+
+.highlight-title {
+	margin-top: 0;
+	color: $color-primary;
+	font-size: 2.5rem;
+}
+
+.highlight-label {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: $font-weight-bold;
+}
+
+.section-highlight-content {
+
+	> *:last-child {
+		margin-bottom: 0;
 	}
 
 	p {
@@ -92,14 +114,6 @@ section {
 	font-size: 1.25rem;
 }
 
-@include media-breakpoint-up(lg) {
-
-	.headline-title {
-		font-size: 2.25rem;
-	}
-
-}
-
 
 // Grid Sections
 // --------------------------------------------------------------------------
@@ -115,4 +129,28 @@ section {
 	padding: 1rem;
 	background-color: rgba($color-bg-grey-dark, 0.4);
 	border-radius: 50%;
+}
+
+
+@include media-breakpoint-up(lg) {
+
+	section {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+
+	.section-highlight {
+		margin-top: 6.5rem;
+		margin-bottom: 6.5rem;
+	}
+
+	.section-padding {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.headline-title {
+		font-size: 2.25rem;
+	}
+
 }
