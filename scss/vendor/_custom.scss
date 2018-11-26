@@ -6,7 +6,7 @@
  */
 
 
-// Color System
+// Colors
 // --------------------------------------------------------------------------
 
 // Theme
@@ -15,14 +15,15 @@ $theme-colors: (
 	"anchor": #3151b5
 );
 
-$link-color: theme-color("anchor");
-
 // Neutrals
 $gray-100: #f4f7fb;
 $gray-300: #dfe3e6;
 $gray-400: #cdd1d4;
 $gray-600: #5a6872;
 $gray-900: #152935;
+
+// Links
+$link-color: theme-color("anchor");
 
 // Buttons + Forms
 $component-active-bg: theme-color("primary");
@@ -37,18 +38,27 @@ $spacer: 1rem;
 // Typography
 // --------------------------------------------------------------------------
 
+// Fonts
 $font-family-sans-serif: 'Muli', sans-serif;
 $font-family-serif: 'Lora', serif;
-$headings-font-family: $font-family-serif;
 
-//$font-size-base: 1.125rem;
+// Font Sizes
+$font-size-base: 1rem;
 
+// Line Heights
 $line-height-base: 1.5;
 $headings-line-height: 1.25;
 
+// Headings
+$headings-font-family: $font-family-serif;
+$headings-margin-bottom: 1.875rem;
+
+
+// Paragraphs
 $paragraph-margin-bottom: $spacer * 1.5;
 
 $blockquote-small-color: $gray-900;
+
 
 // Navbar
 // --------------------------------------------------------------------------
@@ -75,6 +85,7 @@ $input-btn-focus-width: 1px;
 // Options
 $enable-rounded: false;
 
+// Containers
 $container-max-widths: (
   xl: 1300px
 );
