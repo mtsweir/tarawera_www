@@ -4625,11 +4625,6 @@ th {
 .table-grid--row-padding-b4 th, .table-grid--row-padding-b4 td {
   padding-bottom: 2.5rem; }
 
-.content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 75%; }
-
 .hero {
   margin-top: 0;
   padding-top: 2rem; }
@@ -4662,6 +4657,11 @@ th {
 
 .hero-with-image {
   padding-bottom: 0; }
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%; }
 
 section {
   margin-top: 2rem;
