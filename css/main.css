@@ -4440,27 +4440,29 @@ blockquote {
   border-bottom: 1px solid #152935; }
   .accordion .accordion-item {
     margin: 0;
+    padding: 1.25rem;
     list-style: none;
     border-bottom: 1px solid #152935; }
     .accordion .accordion-item:last-of-type {
       border-bottom: 0; }
   .accordion .accordion-item-header {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
     flex-wrap: nowrap;
     justify-content: space-between;
     cursor: pointer; }
     .accordion .accordion-item-header h3 {
       margin: 0;
       padding-right: 1rem;
-      font-size: 1.5rem; }
+      font-size: 1.25rem; }
     .accordion .accordion-item-header button {
       margin: 0;
       padding: 0; }
   .accordion .accordion-item-content {
-    padding-right: 1.25rem; }
+    padding-right: 1.25rem;
+    padding-top: 1.25rem; }
     .accordion .accordion-item-content > :first-child {
       margin-top: 0; }
+    .accordion .accordion-item-content > :last-child {
+      margin-bottom: 0; }
     .accordion .accordion-item-content h5 {
       margin-top: 1.5rem;
       margin-bottom: 0.75rem; }
@@ -4476,6 +4478,8 @@ blockquote {
     .accordion .accordion-item {
       padding-left: 1.25rem;
       padding-right: 1.25rem; }
+    .accordion .accordion-item-header h3 {
+      font-size: 1.75rem; }
     .accordion .accordion-item-content {
       padding-right: 4rem; } }
 
@@ -4597,24 +4601,52 @@ th {
   border-bottom: 2px solid #152935; }
   .table th, .table td {
     padding: 1.5rem;
-    vertical-align: top; }
+    vertical-align: top;
+    min-width: 250px; }
   .table thead th {
     font-family: "Lora", serif;
     border-bottom: 2px solid #152935; }
 
-.table-headline thead th {
+.table-with-headline thead th {
   padding-top: 2.5rem;
   padding-bottom: 0;
   font-size: 1.5rem;
   font-weight: 400;
   border-bottom: 0; }
 
-.table-headline thead tr > :first-child,
-.table-headline tbody tr > :first-child {
+.table-with-headline thead tr > :first-child,
+.table-with-headline tbody tr > :first-child {
   padding-left: 0; }
 
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: #e5eff2; }
+
+.table-responsive {
+  margin-bottom: 2rem;
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
+  .table-responsive table {
+    margin-bottom: 0; }
+
+@media (max-width: 991.98px) {
+  .table-shadow {
+    position: relative; }
+    .table-shadow::before, .table-shadow::after {
+      display: block;
+      content: '';
+      position: absolute;
+      height: 100%;
+      top: 0;
+      width: 1.25rem; }
+    .table-shadow::before {
+      left: 0;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.05) 0%, transparent 100%); }
+    .table-shadow::after {
+      right: 0;
+      background: linear-gradient(to left, rgba(0, 0, 0, 0.05) 0%, transparent 100%); } }
 
 .table-grid {
   table-layout: fixed; }
@@ -4663,6 +4695,12 @@ th {
   margin-right: auto;
   max-width: 75%; }
 
+@media (min-width: 768px) {
+  .content-md {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%; } }
+
 section {
   margin-top: 2rem;
   margin-bottom: 2rem; }
@@ -4708,8 +4746,7 @@ section {
 
 .highlight-title {
   margin-top: 0;
-  color: #00627e;
-  font-size: 2.5rem; }
+  color: #00627e; }
 
 .highlight-label {
   margin-bottom: 1rem;
@@ -4731,9 +4768,6 @@ section {
 .section-highlight-content li {
   margin-bottom: 0.75rem;
   list-style: none; }
-
-.headline-title {
-  font-size: 1.5rem; }
 
 .headline-copy {
   margin-bottom: 2rem;
@@ -4762,7 +4796,9 @@ section {
     padding-top: 4rem;
     padding-bottom: 4rem; }
   .headline-title {
-    font-size: 2.25rem; } }
+    font-size: 2.625rem; }
+  .highlight-title {
+    font-size: 2.625rem; } }
 
 .footer {
   margin-top: 4rem;
