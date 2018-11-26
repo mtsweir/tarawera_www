@@ -7,6 +7,7 @@
 	// Accordion Item
 	.accordion-item {
 		margin: 0;
+		padding: 1.25rem;
 		//padding-top: 1.25rem;
 		//padding-bottom: 1.25rem;
 		list-style: none;
@@ -18,8 +19,9 @@
 
 	// Accordion Header
 	.accordion-item-header {
-		padding-top: 1.25rem;
-		padding-bottom: 1.25rem;
+		//padding-top: 1.25rem;
+		//padding-right: 1.25rem;
+		//padding-bottom: 1.25rem;
 		flex-wrap: nowrap;
 		justify-content: space-between;
 		cursor: pointer;
@@ -27,7 +29,7 @@
 		h3 {
 			margin: 0;
 			padding-right: 1rem;
-			font-size: 1.5rem;
+			font-size: 1.25rem;
 		}
 
 		button {
@@ -39,9 +41,14 @@
 	// Accordion Content
 	.accordion-item-content {
 		padding-right: 1.25rem;
+		padding-top: 1.25rem;
 
 		> :first-child {
 			margin-top: 0;
+		}
+
+		> :last-child {
+			margin-bottom: 0;
 		}
 
 		h5 {
@@ -70,6 +77,12 @@
 		.accordion-item {
 			padding-left: 1.25rem;
 			padding-right: 1.25rem;
+		}
+
+		.accordion-item-header {
+			h3 {
+				font-size: 1.75rem;
+			}
 		}
 
 		.accordion-item-content {
