@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="390px" viewBox="0 0 300 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ui-website-feature-detail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1.-Page-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TP-Specs-V1.0" transform="translate(-400.000000, -2420.000000)">
+            <g id="ui-website-feature-detail" transform="translate(400.000000, 2420.000000)">
+                <rect id="Rectangle-4-Copy-2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="390"></rect>
+                <path d="M0,22 L300,22" id="Line-3" stroke="#DFE3E6" fill-rule="nonzero"></path>
+                <rect id="Rectangle-4" fill-rule="nonzero" x="0" y="0" width="300" height="390"></rect>
+                <rect id="Rectangle" fill="#DFE3E6" fill-rule="nonzero" x="30" y="50" width="150" height="8"></rect>
+                <rect id="Rectangle-Copy-3" fill="#DFE3E6" fill-rule="nonzero" x="190" y="90" width="80" height="8"></rect>
+                <rect id="Rectangle-Copy-4" fill="#DFE3E6" fill-rule="nonzero" x="190" y="110" width="80" height="8"></rect>
+                <rect id="Rectangle-Copy-5" fill="#DFE3E6" fill-rule="nonzero" x="30" y="130" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-6" fill="#DFE3E6" fill-rule="nonzero" x="30" y="150" width="180" height="8"></rect>
+                <rect id="Rectangle-Copy-10" fill="#DFE3E6" fill-rule="nonzero" x="30" y="188" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-9" fill="#DFE3E6" fill-rule="nonzero" x="30" y="208" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-13" fill="#DFE3E6" fill-rule="nonzero" x="30" y="228" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-12" fill="#DFE3E6" fill-rule="nonzero" x="30" y="248" width="180" height="8"></rect>
+                <rect id="Rectangle-Copy-14" fill="#DFE3E6" fill-rule="nonzero" x="30" y="288" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-15" fill="#DFE3E6" fill-rule="nonzero" x="30" y="308" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-17" fill="#DFE3E6" fill-rule="nonzero" x="30" y="328" width="240" height="8"></rect>
+                <rect id="Rectangle-Copy-16" fill="#DFE3E6" fill-rule="nonzero" x="30" y="348" width="180" height="8"></rect>
+                <rect id="Rectangle-Copy-11" fill="#3151B5" fill-rule="nonzero" x="30" y="90" width="144" height="30"></rect>
+                <text id="Your-Ad" font-family="Muli-Bold, Muli" font-size="16" font-weight="bold" line-spacing="24" fill="#FFFFFF">
+                    <tspan x="71.184" y="109">Your Ad</tspan>
+                </text>
+                <circle id="Oval" fill="#DFE3E6" fill-rule="nonzero" cx="13.5" cy="11.5" r="1.5"></circle>
+                <circle id="Oval-Copy" fill="#DFE3E6" fill-rule="nonzero" cx="21.5" cy="11.5" r="1.5"></circle>
+                <circle id="Oval-Copy-3" fill="#DFE3E6" fill-rule="nonzero" cx="29.5" cy="11.5" r="1.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

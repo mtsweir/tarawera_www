@@ -1,0 +1,80 @@
+// Table Base
+table {
+    border-collapse: collapse;
+}
+
+th {
+	text-align: inherit;
+}
+
+
+// Table Default
+
+.table {
+	margin-bottom: 2rem;
+	width: 100%;
+	background-color: transparent;
+	border-top: 2px solid $color-border;
+	border-bottom: 2px solid $color-border;
+
+	th, td {
+		padding: 1.5rem;
+		vertical-align: top;
+	}
+
+	thead {
+		th {
+			font-family: $font-family-serif;
+			border-bottom: 2px solid $color-border;
+		}
+	}
+
+}
+
+
+.table-headline {
+
+	thead {
+		th {
+			padding-top: 2.5rem;
+			padding-bottom: 0;
+			font-size: 1.5rem;
+			font-weight: $font-weight-normal;
+			border-bottom: 0;
+		}
+	}
+
+	thead,
+	tbody {
+		tr > :first-child {
+			padding-left: 0;
+		}
+	}
+
+}
+
+
+// Table Striped
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: #e5eff2;
+}
+
+
+// Even Table Columns
+.table-grid {
+	table-layout: fixed;
+}
+
+
+// Table Padding
+.table-grid--row-padding-t4 {
+	th, td {
+		padding-top: 2.5rem;
+	}
+}
+
+.table-grid--row-padding-b4 {
+	th, td {
+		padding-bottom: 2.5rem;
+	}
+}
