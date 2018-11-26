@@ -4367,10 +4367,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
 
-b,
-strong {
-  font-weight: 600; }
-
 h2, .h2 {
   margin-top: 2rem;
   margin-bottom: 1rem; }
@@ -4597,14 +4593,14 @@ th {
   margin-bottom: 2rem;
   width: 100%;
   background-color: transparent;
-  border-top: 2px solid #152935;
   border-bottom: 2px solid #152935; }
   .table th, .table td {
     padding: 1.5rem;
     vertical-align: top;
-    min-width: 250px; }
+    min-width: 220px; }
   .table thead th {
     font-family: "Lora", serif;
+    border-top: 2px solid #152935;
     border-bottom: 2px solid #152935; }
 
 .table-with-headline thead th {
@@ -4621,6 +4617,9 @@ th {
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: #e5eff2; }
 
+.table-cell-highlight {
+  background-color: #e5eff2; }
+
 .table-responsive {
   margin-bottom: 2rem;
   display: block;
@@ -4631,25 +4630,27 @@ th {
   .table-responsive table {
     margin-bottom: 0; }
 
+.table-deadlines {
+  margin-bottom: 0;
+  border-bottom: 0; }
+
 @media (max-width: 991.98px) {
   .table-shadow {
     position: relative; }
-    .table-shadow::before, .table-shadow::after {
+    .table-shadow::after {
       display: block;
       content: '';
       position: absolute;
       height: 100%;
       top: 0;
       width: 1.25rem; }
-    .table-shadow::before {
-      left: 0;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0.05) 0%, transparent 100%); }
     .table-shadow::after {
       right: 0;
       background: linear-gradient(to left, rgba(0, 0, 0, 0.05) 0%, transparent 100%); } }
 
-.table-grid {
-  table-layout: fixed; }
+@media (min-width: 992px) {
+  .table-fixed-lg {
+    table-layout: fixed; } }
 
 .table-grid--row-padding-t4 th, .table-grid--row-padding-t4 td {
   padding-top: 2.5rem; }
@@ -4660,9 +4661,6 @@ th {
 .hero {
   margin-top: 0;
   padding-top: 2rem; }
-
-.hero-copy-container {
-  padding-bottom: 2rem; }
 
 .hero-title {
   font-size: 2.25rem; }
@@ -4745,8 +4743,7 @@ section {
   align-self: center; }
 
 .highlight-title {
-  margin-top: 0;
-  color: #00627e; }
+  margin-top: 0; }
 
 .highlight-label {
   margin-bottom: 1rem;
@@ -4798,7 +4795,16 @@ section {
   .headline-title {
     font-size: 2.625rem; }
   .highlight-title {
-    font-size: 2.625rem; } }
+    font-size: 2.25rem; } }
+
+.pdf-link {
+  display: flex; }
+  .pdf-link a {
+    margin-left: 1rem; }
+  .pdf-link span {
+    display: block;
+    color: #152935;
+    font-size: 0.75rem; }
 
 .footer {
   margin-top: 4rem;
