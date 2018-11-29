@@ -1,3 +1,36 @@
+.form-control {
+	&:focus {
+		box-shadow: none;
+	}
+}
+	
+.custom-select {
+	-webkit-appearance: none;
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+// Custom form input pattern
+
+.form-custom {
+
+	label {
+		font-weight: $font-weight-bold;
+	}
+
+	.form-group {
+		margin-bottom: 2.5rem;
+	}
+
+	input.form-control {
+		padding-left: 0;
+		padding-right: 0;
+		border-width: 0 0 2px;
+	}
+
+}
+
 
 .tpl-form-group--attached {
 	display: flex;
