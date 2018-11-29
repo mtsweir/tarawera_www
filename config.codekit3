@@ -54,6 +54,17 @@
 		"oAP": "/build/grtv.html",
 		"oF": 1
 		},
+	"/img/asset-magazine.jpg": {
+		"ft": 16384,
+		"iS": 162782,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/build/img/asset-magazine.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/brand/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -83,6 +94,17 @@
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/the-nz-mortgage-mag.jpg": {
+		"ft": 16384,
+		"iS": 170515,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/build/img/the-nz-mortgage-mag.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/img/ui-newsletter-feature-detail.svg": {
 		"ft": 2097152,
