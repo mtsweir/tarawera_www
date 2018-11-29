@@ -1194,6 +1194,13 @@
 		"oA": 1,
 		"oAP": "/build/specs.html",
 		"oF": 1
+		},
+	"/terms.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/terms.html",
+		"oF": 1
 		}
 	},
 "hooks": [
