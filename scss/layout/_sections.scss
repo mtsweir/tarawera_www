@@ -1,15 +1,14 @@
 .content {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 75%;
 }
 
 @include media-breakpoint-up(md) {
-	.content-md {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 75%;
+
+	.content {
+		max-width: 60%;
 	}
+
 }
 
 section {
@@ -30,18 +29,19 @@ section {
 }
 
 .section-bg-primary {
-	// Dark Green
 	background-color: $color-bg-primary;
 }
 
 .section-bg-grey-light {
-	// Light Grey
 	background-color: $color-bg-grey-light;
 }
 
 .section-bg-grey-dark {
-	// Dark Grey
 	background-color: $color-bg-grey-dark;
+}
+
+.section-bg-secondary-1 {
+	background-color: $color-bg-secondary-1;
 }
 
 
@@ -89,20 +89,15 @@ section {
 }
 
 .section-highlight-content {
+	font-family: $font-family-serif;
+	font-size: 1.25rem;
 
 	> *:last-child {
 		margin-bottom: 0;
 	}
-
-	p {
-		font-family: $font-family-serif;
-		font-size: 1.25rem;
-	}
 	
 	ul {
-		margin: 0;
-		padding: 0;
-		font-size: 1.25rem;
+		margin-left: 0;
 	}
 
 	li {

@@ -12,7 +12,8 @@
 // Theme
 $theme-colors: (
 	"primary": #00627e,
-	"anchor": #3151b5
+	"anchor": #3151b5,
+	"secondary-1":#e0f3ee
 );
 
 // Neutrals
@@ -21,6 +22,10 @@ $gray-300: #dfe3e6;
 $gray-400: #cdd1d4;
 $gray-600: #5a6872;
 $gray-900: #152935;
+
+// System
+$red: #e33596;
+$green: #2cab88;
 
 // Links
 $link-color: theme-color("anchor");
@@ -71,7 +76,7 @@ $blockquote-small-color: $gray-900;
 
 $input-btn-padding-y: 0.75rem;
 $input-btn-padding-x: 1rem;
-
+$input-btn-border-width: 2px;
 $input-color: $gray-900;
 $input-border-color: $gray-900;
 $input-btn-focus-color: rgba($component-active-bg, 1);

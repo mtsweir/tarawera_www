@@ -10,9 +10,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-// b, strong {
-// 	font-weight: $font-weight-bold;
-// }
+ul {
+	margin-left: 1rem;
+	padding: 0;
+}
 
 // Headings
 // --------------------------------------------------------------------------
@@ -77,6 +78,7 @@ blockquote {
 // --------------------------------------------------------------------------
 
 .divider {
+	flex-basis: 100%;
 
 	hr {
 		border-top-color: $color-border-light;
@@ -94,6 +96,6 @@ blockquote {
 // --------------------------------------------------------------------------
 
 ::selection {
-	background: rgba($color-primary, 0.2);
+	background-color: $color-bg-secondary-1;
 	color: $color-text;
 }
