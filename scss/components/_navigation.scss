@@ -1,5 +1,9 @@
 .navbar.navbar-primary {
 
+	ul {
+		margin-left: 0;
+	}
+
 	.nav-link {
 		color: $nav-link-color;
 	}
@@ -16,6 +20,32 @@
 	font-size: 1rem;
 }
 
+.navbar-toggler {
+	border: 0;
+}
+
+
+@include media-breakpoint-down(md) {
+
+	.navbar-nav {
+		margin: 1.5rem 0 2.5rem;
+
+		.nav-link {
+			padding-top: 1.25rem;
+			padding-bottom: 1.25rem;
+			border-bottom: 1px solid $color-border-light;
+		}
+	}
+
+	.navbar-footer {
+		padding-bottom: 2.5rem;
+		border-bottom: 1px solid $color-border-light;
+	}
+
+	.btn-cta {
+		width: 100%;
+	}
+}
 
 @include media-breakpoint-up(lg) {
 
