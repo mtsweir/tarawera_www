@@ -19,6 +19,17 @@
 	}
 }
 
+@include media-breakpoint-down(md) {
+
+	.hero {
+		.content {
+			padding-left: $spacer * 1.5;
+			padding-right: $spacer * 1.5;
+		}
+	}
+
+}
+
 @include media-breakpoint-up(lg) {
 
 	.hero {
