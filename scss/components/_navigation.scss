@@ -6,6 +6,9 @@
 
 	.nav-link {
 		color: $nav-link-color;
+		&:hover {
+			color: theme-color("primary")
+		}
 	}
 }
 
@@ -24,24 +27,17 @@
 	border: 0;
 }
 
-@media (max-width: 540px) {
-	
-	.btn-cta-mobile {
-		width: 100%;
-	}
+@media (max-width: 600px) {
 
-	.btn-cta-desktop {
-		display: none;
+	.navbar-cta .btn {
+		width: 100%;
 	}
 
 }
 
-
 @include media-breakpoint-down(md) {
 
 	.navbar-nav {
-		margin: 1.5rem 0 2.5rem;
-
 		.nav-link {
 			padding-top: 1.25rem;
 			padding-bottom: 1.25rem;
@@ -49,8 +45,8 @@
 		}
 	}
 
-	.navbar-footer {
-		padding-bottom: 2.5rem;
+	.navbar-cta {
+		padding: 1.25rem 0;
 		border-bottom: 1px solid $color-border-light;
 	}
 
