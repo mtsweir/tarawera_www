@@ -4933,6 +4933,12 @@ blockquote {
 .navbar-toggler {
   border: 0; }
 
+@media (max-width: 540px) {
+  .btn-cta-mobile {
+    width: 100%; }
+  .btn-cta-desktop {
+    display: none; } }
+
 @media (max-width: 991.98px) {
   .navbar-nav {
     margin: 1.5rem 0 2.5rem; }
@@ -4942,9 +4948,7 @@ blockquote {
       border-bottom: 1px solid #dfe3e6; }
   .navbar-footer {
     padding-bottom: 2.5rem;
-    border-bottom: 1px solid #dfe3e6; }
-  .btn-cta {
-    width: 100%; } }
+    border-bottom: 1px solid #dfe3e6; } }
 
 @media (min-width: 992px) {
   .navbar.navbar-primary {
@@ -5048,6 +5052,11 @@ th {
 .hero-image img {
   padding-left: 1rem;
   padding-right: 1rem; }
+
+@media (max-width: 991.98px) {
+  .hero .content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; } }
 
 @media (min-width: 992px) {
   .hero {
@@ -5243,7 +5252,8 @@ section {
   top: 0;
   padding: 1.25rem 0;
   background-color: #fff;
-  border-bottom: 1px solid #dfe3e6; }
+  border-bottom: 1px solid #dfe3e6;
+  z-index: 100; }
 
 .newsletter-container {
   margin-bottom: 1.5rem; }

@@ -24,6 +24,18 @@
 	border: 0;
 }
 
+@media (max-width: 540px) {
+	
+	.btn-cta-mobile {
+		width: 100%;
+	}
+
+	.btn-cta-desktop {
+		display: none;
+	}
+
+}
+
 
 @include media-breakpoint-down(md) {
 
@@ -42,9 +54,6 @@
 		border-bottom: 1px solid $color-border-light;
 	}
 
-	.btn-cta {
-		width: 100%;
-	}
 }
 
 @include media-breakpoint-up(lg) {
