@@ -1,0 +1,46 @@
+.brand {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 4rem;
+}
+
+.brand__content {
+
+	> :first-child {
+		margin-top: 0;
+	}
+
+		> :last-child {
+		margin-bottom: 0;
+	}
+
+}
+
+.brand__img {
+	text-align: center;
+}
+
+.brand__title {
+	margin-bottom: 0.5rem;
+	font-size: 1.25rem;
+}
+
+@include media-breakpoint-up(md) {
+
+	.brand {
+		flex-wrap: nowrap;
+	}
+
+	.brand__img {
+		flex: 0 0 40%;
+    max-width: 40%;
+		margin-right: 2rem;
+		text-align: right;
+	}
+
+	.brand__content {
+		flex: 0 0 60%;
+    max-width: 60%;
+	}
+
+}
