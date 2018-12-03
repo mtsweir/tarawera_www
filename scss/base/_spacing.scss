@@ -1,19 +1,11 @@
 .row-spacing {
-	> * {
-		margin-bottom: 2rem;
-	}
+	margin-bottom: 4rem;
 }
 
 @include media-breakpoint-up(md) {
 
 	.row-spacing {
-		> * {
-			margin-bottom: 4rem;
-		}
+		margin-bottom: 6rem;
 	}
 
-}
-
-.row-spacing--header {
-	margin-bottom: 2rem;
 }
