@@ -5147,6 +5147,9 @@ section {
   margin: 1rem 0;
   font-size: 1.5rem; }
 
+.content-grid__image--icon > i {
+  font-size: 4rem; }
+
 @media (min-width: 768px) {
   .content {
     max-width: 60%; }
@@ -5358,3 +5361,32 @@ section {
 @media (min-width: 992px) {
   .hidden-lg {
     display: none; } }
+
+@font-face {
+  font-family: 'tpl_icons';
+  src: url("../fonts/tpl_icons.eot?1u67k8");
+  src: url("../fonts/tpl_icons.eot?1u67k8#iefix") format("embedded-opentype"), url("../fonts/tpl_icons.ttf?1u67k8") format("truetype"), url("../fonts/tpl_icons.woff?1u67k8") format("woff"), url("../fonts/tpl_icons.svg?1u67k8#tpl_icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="tpl_icon-"], [class*=" tpl_icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tpl_icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.tpl_icon-analytics:before {
+  content: "\e900"; }
+
+.tpl_icon-golfhole:before {
+  content: "\e901"; }
+
+.tpl_icon-typewriter:before {
+  content: "\e902"; }

@@ -54,6 +54,37 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"/fonts/tpl_icons.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/fonts/tpl_icons.eot",
+		"oF": 0
+		},
+	"/fonts/tpl_icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/fonts/tpl_icons.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/fonts/tpl_icons.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/fonts/tpl_icons.ttf",
+		"oF": 0
+		},
+	"/fonts/tpl_icons.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/fonts/tpl_icons.woff",
+		"oF": 0
+		},
 	"/grtv.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1217,6 +1248,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/scss/vendor/bootstrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/vendor/fonts/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/scss/vendor/fonts/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
