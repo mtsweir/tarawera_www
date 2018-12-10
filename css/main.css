@@ -5072,8 +5072,8 @@ section {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
-.section__bg-primary,
-.section__bg-grey-dark {
+.section__bg--primary,
+.section__bg--grey-dark {
   color: #fff; }
 
 .section__bg--primary {
