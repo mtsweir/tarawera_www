@@ -37,8 +37,8 @@ section {
 
 // Section Themes
 
-.section__bg-primary,
-.section__bg-grey-dark {
+.section__bg--primary,
+.section__bg--grey-dark {
 	color: $white;
 }
 
@@ -127,6 +127,8 @@ section {
 // 	background-color: rgba($color-bg-grey-dark, 0.4);
 // 	border-radius: 50%;
 // }
+
+// Rename
 
 .pdf-link {
 	display: flex;
