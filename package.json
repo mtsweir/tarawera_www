@@ -1,0 +1,6 @@
+{
+  "name": "tarawera-www",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
